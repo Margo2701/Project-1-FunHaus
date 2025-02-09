@@ -34,6 +34,17 @@
     cursor: pointer;
 }
 
+.animate__bounceOutUp{
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.animate__flash{
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
 @media screen and (max-width: 1300px) {
     .container4 .pic_caption h4{
         padding-top: 300px;
