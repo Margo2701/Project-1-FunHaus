@@ -1,0 +1,137 @@
+.container4 .card_img{
+    position: relative;
+}
+
+.container4 .pic_caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    opacity: 0;
+    transition: 1s;
+    padding: 0;
+}
+
+.container4 .pic_caption h4{
+    font-family: "Playfair Display";
+    font-size: 42px;
+    line-height: 121%;
+    color: #f2f2f2;
+    padding-top: 165px;
+}
+
+/* .container4 .bottom_to_top{
+    transition: 1s;
+} */
+
+.container4 .card_img:hover .bottom_to_top{
+    top: 0;
+    left: 0;
+    opacity: 1;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    .container4 .pic_caption h4{
+        padding-top: 300px;
+        font-size: 80px;
+    }  
+}
+
+@media screen and (max-width: 1200px) {
+    .container4 .pic_caption h4{
+        padding-top: 270px;
+        font-size: 80px;
+    }  
+}
+
+@media screen and (max-width: 1100px) {
+    .container4 .pic_caption h4{
+        padding-top: 250px;
+        font-size: 70px;
+    }  
+}
+
+@media screen and (max-width: 980px) {
+    .container4 .pic_caption h4{
+        padding-top: 240px;
+    }  
+}
+
+@media screen and (max-width: 910px) {
+    .container4 .pic_caption h4{
+        padding-top: 220px;
+        font-size: 65px;
+    }  
+}
+
+@media screen and (max-width: 860px) {
+    .container4 .pic_caption h4{
+        padding-top: 210px;
+        font-size: 55px;
+    }  
+}
+
+@media screen and (max-width: 760px) {
+    .container4 .pic_caption h4{
+        padding-top: 200px;
+        font-size: 45px;
+    }  
+}
+
+@media screen and (max-width: 780px) {
+    .container4 .pic_caption h4{
+        padding-top: 190px;
+        font-size: 45px;
+    }  
+}
+
+@media screen and (max-width: 700px) {
+    .container4 .pic_caption h4{
+        padding-top: 175px;
+    }  
+}
+
+@media screen and (max-width: 660px) {
+    .container4 .pic_caption h4{
+        padding-top: 165px;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    .container4 .pic_caption h4{
+        padding-top: 150px;
+        font-size: 40px;
+    }  
+}
+
+@media screen and (max-width: 550px) {
+    .container4 .pic_caption h4{
+        padding-top: 130px;
+        font-size: 35px;
+    }  
+}
+
+@media screen and (max-width: 500px) {
+    .container4 .pic_caption h4{
+        padding-top: 110px;
+        font-size: 30px;
+    }  
+}
+
+
+@media screen and (max-width: 450px) {
+    .container4 .pic_caption h4{
+        padding-top: 100px;
+        font-size: 24px;
+    }  
+}
+
+@media screen and (max-width: 425px) {
+    .container4 .pic_caption h4{
+        padding-top: 95px;
+    }  
+}
